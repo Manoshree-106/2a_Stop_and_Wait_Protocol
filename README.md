@@ -37,9 +37,9 @@ s.connect(('localhost',8000))
 while True: 
 print(s.recv(1024).decode()) 
 s.send("Acknowledgement Recived".encode())
-
+```
 ## OUTPUT
-<img width="1920" height="1080" alt="Screenshot 2026-05-20 115219" src="https://github.com/user-attachments/assets/ab4561f4-cc3c-4eda-8b04-9595fd4453b6" />
+<img width="1920" height="1080" alt="Screenshot 2026-05-20 115219" src="https://github.com/user-attachments/assets/14d9b1e5-2350-4e1c-95db-b191fa958942" />
 
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed.
